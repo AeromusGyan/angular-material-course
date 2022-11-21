@@ -1,6 +1,3 @@
-
-
-
 import {Injectable} from "@angular/core";
 import {ActivatedRouteSnapshot, Resolve, RouterStateSnapshot} from "@angular/router";
 import {Course} from "../model/course";
@@ -21,4 +18,3 @@ export class CourseResolver implements Resolve<Course> {
     }
 
 }
-
